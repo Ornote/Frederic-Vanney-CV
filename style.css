@@ -456,6 +456,13 @@ body:before {
 	font-style: italic;
 	padding-bottom: 1.5rem;
 }
+
+a.work-link {
+  position: relative;
+  z-index: 900;
+  cursor: pointer;
+}
+
 .work-skill {
 	margin: 1rem 0 0 0;
 	font-weight: 700;
