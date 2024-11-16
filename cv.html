@@ -10,8 +10,10 @@
   <link rel="shortcut icon" href="/sites/default/files/580b57fbd9996e24bc43bb8b.png" type="image/png">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   <link rel="prefetch stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+  <link rel="icon" href="/sites/default/files/fav_0.png" type="image/png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+  <link rel="shortcut icon" href="/sites/default/files/fav.png" type="image/png">
 </head>
 <body>
 <a class="go-top"><span class="arrow-top"></span></a>
@@ -26,7 +28,7 @@
   <aside class="intro">
     <div class="profile">
       <div class="photo">
-        <img src="https://hoodspot.fr/uploads/791/707/79170723500010/gallery/thumb/gallery_item2.jpg?1429810382">
+        <img src="asset/moi.jpg" alt="Frédéric Vanney">
       </div>
       <div class="bio">
         <h1 class="name" itemprop="name"><span itemprop="name">Frédéric Vanney</span></h1>
@@ -60,23 +62,20 @@
       </div>
     </div>
     <div class="intro-section follow">
-      <h1 class="title">Follow</h1>
-      <div class="info-section link">
-        <i class="fab fa-github"></i>
-        <a target="_blank" rel="author" href="https://github.com/ornote" itemprop="url">
-          <span>Ornote@github</span>
-        </a>
-      </div>
-      <div class="info-section link">
-        <i class="fab fa-codepen"></i>
-        <a target="_blank" rel="author" href="https://codepen.io/ornote-book" itemprop="url">
-          <span>Codepen.io</span>
-        </a>
-      </div>
+      <h1 class="title">Get CV</h1>
       <div class="info-section link">
         <i class="fa fa-download"></i>
-        <a itemprop="url" href="asset/CV-F-Vanney.docx">
-          <span>Get CV</span>
+        <a itemprop="url" target="_blank" href="asset/cv_F_Vanney.pdf">
+          <span>Resume in PDF</span>
+        </a>
+      </div>
+    </div>
+    <div class="intro-section blog">
+      <h1 class="title">Blog</h1>
+      <div class="info-section link">
+        <i class="fa fa-solid fa-blog"></i>
+        <a itemprop="url" href="#">
+          <span>Visit my blog (WIP)</span>
         </a>
       </div>
     </div>
@@ -217,7 +216,7 @@
           <li>
             <span>Visual Studio</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 85%"></div>
+              <div class="skillbar" style="--pgbar-length: 80%"></div>
             </div>
           </li>
           <li>
@@ -233,9 +232,9 @@
             </div>
           </li>
           <li>
-            <span>Acquia Desktop Dev</span>
+            <span>Lamp-Mamp-Wamp</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 70%"></div>
+              <div class="skillbar" style="--pgbar-length: 90%"></div>
             </div>
           </li>
           <li>
@@ -259,11 +258,37 @@
           <i class="fas fa-tools"></i>
         </div>
         <span>Some stuff I did</span>
+      </div
+>      <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
+        <h2 class="tile-work link">BNF</h2>
+        <div class="work-skill" itemprop="jobTitle">Développeur Drupal</div>
+        <p class="works-content">
+          • Migration drupal 7 vers drupal 10
+          • Analyse des spécifications fonctionnelles
+          • Création d'un module avec fonctionalités nécessaires aux normes RGAA
+          • Mise à jour du core Drupal, module contribué et les modules custom
+          •Ajout de fonctionnalités avec des modules custom
+          •Correction des anomalies et création des hotfixs
+          •Optimisation des performances des sites
+        </p>
+      </div>
+      <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
+        <h2 class="tile-work link"><a href="https://bofip.impots.gouv.fr/" class="work-link" target="_blank"
+                                      itemprop="url" title="visit site">DGFIP <i class="fas fa-link"></i></a></h2>
+        <div class="work-skill" itemprop="jobTitle">Développeur Drupal</div>
+        <p class="works-content">
+          •Audit, résulotion de bugs sur les thème (Front et back)
+          • Analyse des spécifications fonctionnelles
+          • Conception technique des modules et fonctionnalités
+          • Développement des user stories
+          •Création d'un module avec fonctionalités nécessaires aux normes RGAA
+          •Rédaction de documentations
+        </p>
       </div>
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="https://www.maboussoleaidants.fr/" class="work-link" target="_blank"
-                                      itemprop="url" title="visit site">Agirc-Arrco</a></h2>
-        <div class="work-skill" itemprop="jobTitle">Développeur Drupal 8</div>
+                                      itemprop="url" title="visit site">Agirc-Arrco - Klesia <i class="fas fa-link"></i></a></h2>
+        <div class="work-skill" itemprop="jobTitle">Développeur Drupal</div>
         <p class="works-content">
           • Développement de modules pour création du site en full headless from scratch
           • Mise en place d’une Ci avec docker, jenkins, composer et git
@@ -275,8 +300,9 @@
       </div>
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="https://www.onisr.securite-routiere.interieur.gouv.fr/" class="work-link"
-                                      target="_blank" itemprop="url" title="visit site">Ministère de l’intérieur</a></h2>
-        <div class="work-skill">Lead développeur Drupal 8</div>
+                                      target="_blank" itemprop="url" title="visit site">Ministère de l’intérieur <i class="fas fa-link"></i></a>
+        </h2>
+        <div class="work-skill">Lead développeur Drupal</div>
         <p class="works-content">
           • Développement de modules cartographique en PHP 7 en POO
           • Création du site vitrine avec divers types de contenu
@@ -288,8 +314,8 @@
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="https://www.homly-you.com" class="work-link" target="_blank" itemprop="url"
                                       title="visit site">Saint
-          Gobain</a></h2>
-        <div class="work-skill" itemprop="jobTitle">Chef de projet technique / Lead Développeur Drupal 7</div>
+          Gobain <i class="fas fa-link"></i></a></h2>
+        <div class="work-skill" itemprop="jobTitle">Chef de projet technique / Lead Développeur Drupal</div>
         <p class="works-content">
           • Création d’un thème drupal responsive en HTML5 - Templating PHP, conceptions de hooks et fonctions de thème
           • Coordination et gestion avec l’équipe de stratégie marketing et d’exploitation.
@@ -304,9 +330,9 @@
       </div>
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="http://www.chaumet.com" class="work-link" target="_blank" itemprop="url"
-                                      title="visit site">Chaumet</a>
+                                      title="visit site">Chaumet <i class="fas fa-link"></i></a>
         </h2>
-        <div class="work-skill" itemprop="jobTitle">Développeur Drupal 7</div>
+        <div class="work-skill" itemprop="jobTitle">Développeur Drupal</div>
         <p class="works-content">
           • Création d’un thème Drupal responsive en HTML5
           • Coordination avec le client et l’équipe de création graphique
@@ -323,8 +349,8 @@
       </div>
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="http://madame.lefigaro.fr/" class="work-link" target="_blank"
-                                      itemprop="url" title="visit site">Le Figaro Madame</a></h2>
-        <div class="work-skill" itemprop="jobTitle">Développeur Drupal 7</div>
+                                      itemprop="url" title="visit site">Le Figaro Madame <i class="fas fa-link"></i></a></h2>
+        <div class="work-skill" itemprop="jobTitle">Développeur Drupal</div>
         <p class="works-content">
           • Création d’un theme Drupal à partir du thème Foundation.
           • Templating PHP, conception de hook renderfield Drupal, Markup Html5
@@ -337,9 +363,9 @@
       </div>
       <div class="detail-content" itemscope itemtype="http://schema.org/Event/Job">
         <h2 class="tile-work link"><a href="http://www.asp-public.fr/" class="work-link" target="_blank" itemprop="url"
-                                      title="visit site">Asp-public</a>
+                                      title="visit site">Ministère de l'agriculture <i class="fas fa-link"></i></a>
         </h2>
-        <div class="work-skill" itemprop="jobTitle">Lead Développeur Drupal 7</div>
+        <div class="work-skill" itemprop="jobTitle">Lead Développeur Drupal</div>
         <p class="works-content">
           • Création de modules : carousel Boostrap configurable via views, créations de vues customs avec affichage
           personnalisé, cartes svg configurables avec résultats de recherche.
@@ -400,3 +426,4 @@
 </footer>
 </body>
 </html>
+
