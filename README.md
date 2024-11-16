@@ -2,4 +2,4 @@
 
 ## Fréderic Vanney Portfolio
 
-https://live-ornote-fv.pantheonsite.io/cv/cv.html
+Contact: fred.ornote[at]gmail.com
