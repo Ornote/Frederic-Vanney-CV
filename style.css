@@ -450,6 +450,9 @@ body:before {
 	transition: .5s;
 	background: rgba(255, 255, 255, .8);
 }
+.fr, .en {
+	font-weight: bold;
+}
 
 /*works*/
 .tile-work {
