@@ -475,6 +475,7 @@ a.work-link {
 .works-content {
     white-space: break-spaces;
     line-height: 1.5;
+    padding-left: 2rem;
 }
 /*Footer*/
 footer {
