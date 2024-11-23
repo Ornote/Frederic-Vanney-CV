@@ -2,6 +2,6 @@
 
 ## Fréderic Vanney Portfolio
 
-<a href="https://ornote.github.io/Ornote-CV/">Welcome !</a>
+<a href="https://ornote.github.io/Frederic-Vanney-CV">Welcome !</a>
 
 Contact: fred.ornote[at]gmail.com
